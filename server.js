@@ -1,10 +1,6 @@
 // dependencies
 const express = require('express');
 
-// route files 
-const apiRoutes = require('./routes/APIroutes');
-const htmlRoutes = require('./routes/HTMLroutes');
-
 // express server
 const app = express();
 
@@ -15,12 +11,16 @@ const PORT = process.env.PORT || 3001;
 app.use(express.static('public'));
 
 // parsing data 
-app.use(express.urlencoded)({ extended: true });
+app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-// app to use routing files 
-app.use('/api', apiRoutes);
-app.use('/', htmlRoutes);
+// route files 
+require('./routes/APIroutes')(app);
+require('./routes/HTMLroutes')(app);
+
+// // app to use routing files 
+// app.use('/api', apiRoutes);
+// app.use('/', htmlRoutes);
 
 // starting the server
 app.listen(PORT, () => {
