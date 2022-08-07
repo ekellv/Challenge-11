@@ -1,5 +1,4 @@
 // dependencies
-const { text } = require('express');
 const express = require('express');
 const router = express.Router;
 // npm package that creates 'random' ids 
