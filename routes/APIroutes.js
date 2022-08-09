@@ -29,6 +29,8 @@ module.exports = (app) => {
         db.push(note);
         fs.writeFileSync('db/db.json', JSON.stringify(db));
         res.json(db);
+
+        return;
     });
 
     // using the id from the note body, the delete request removes the user's desired notes
@@ -40,5 +42,6 @@ module.exports = (app) => {
         // rewriting the db file without the deleted note
         fs.writeFileSync('db/db.json', JSON.stringify(noteToBeDeleted));
         res.json(noteToBeDeleted);
+        return;
     })
 };
