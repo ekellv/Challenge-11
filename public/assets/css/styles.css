@@ -1,8 +1,9 @@
 html,
-body {
+body, a {
   height: 100%;
   margin: 0;
   padding: 0;
+  font-family: 'Roboto Slab', serif;
 }
 
 .save-note {
