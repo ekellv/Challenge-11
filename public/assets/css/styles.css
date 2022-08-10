@@ -6,6 +6,10 @@ body, a {
   font-family: 'Roboto Slab', serif;
 }
 
+.navbar {
+  background-color: rgb(38, 52, 82);
+}
+
 .save-note {
   display: none;
 }
@@ -19,7 +23,7 @@ body, a {
 
 .note-textarea,
 .note-title {
-  color: #000000;
+  color: #1b1445;
   width: 100%;
   outline: none;
   border: none;
