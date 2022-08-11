@@ -7,12 +7,12 @@ const path = require('path');
 module.exports = (app) => {
     app.get('/notes', (req, res) => {
         res.sendFile(path.join(__dirname, "../public/notes.html"));
-        return;
+        return; // stack overflow mentioned adding the return to stop the node module from returning an error but the app still works
     });
 
     // wildcard route
     app.get('*', (req, res) => {
         res.sendFile(path.join(__dirname, "../public/index.html"));
-        return;
+        return; // stack overflow mentioned adding the return to stop the node module from returning an error but the app still works
     })
 };
