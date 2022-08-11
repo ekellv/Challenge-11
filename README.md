@@ -8,7 +8,7 @@ This application creates and saves various notes for the user. By using the Expr
 
 ![Github license](http://img.shields.io/badge/License-MIT-yellow.svg)
 
-[A version of the deployed website can be viewed here.](https://note-taking-app-erin.herokuapp.com/)
+[Link to the app hosted at Heroku.](https://note-taking-app-erin.herokuapp.com/)
 
 ## Contents
 1. [About](#about)
@@ -17,10 +17,9 @@ This application creates and saves various notes for the user. By using the Expr
       3. [Visuals](#visuals)
       4. [Technologies](#technologies)
 2. [Installation](#installation)
-3. [License](#license)
 4. [Usage](#usage)
-5. [Contributing](#contributing)
-6. [Testing](#testing)
+3. [License](#license)
+6. [Contributing](#contributing)
 7. [Authors and Acknowledgements](#authors%20and%20acknowledgements)
 
 ## About
@@ -29,41 +28,63 @@ The user easily views their saved notes and can either create more as tasks emer
 
 ## User Story
 
+```
 AS A small business owner
+
 I WANT to be able to write and save notes
+
 SO THAT I can organize my thoughts and keep track of tasks I need to complete
+```
 
 ## Acceptance Criteria 
 
+```
 GIVEN a note-taking application
+
 WHEN I open the Note Taker
+
 THEN I am presented with a landing page with a link to a notes page
+
 WHEN I click on the link to the notes page
+
 THEN I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column
+
 WHEN I enter a new note title and the note’s text
+
 THEN a Save icon appears in the navigation at the top of the page
+
 WHEN I click on the Save icon
+
 THEN the new note I have entered is saved and appears in the left-hand column with the other existing notes
+
 WHEN I click on an existing note in the list in the left-hand column
+
 THEN that note appears in the right-hand column
+
 WHEN I click on the Write icon in the navigation at the top of the page
+
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
+```
 
 ## Visuals: 
 
-![index.html screenshot](public\assets\images\index-screenshot.png)
-![notes.html screenshot](public\assets\images\notes-screenshot.png)
+![index-screenshot](https://user-images.githubusercontent.com/103372188/184248211-c20e1524-70b1-4a8d-9362-eca226c35477.png)
+
+![notes-screenshot](https://user-images.githubusercontent.com/103372188/184248227-663b7610-7da7-44e6-913a-bee3e7295668.png)
 
 ## Technologies
 
-*[Node.js](https://nodejs.org/en/)
-*[Express.js](https://expressjs.com/)
-*[uuid](https://www.npmjs.com/package/uuid)
-*[Heroku](https://id.heroku.com/login)
-*[Bootstrap](https://getbootstrap.com/)
-*[Google Fonts](https://fonts.google.com/)
+ * [Node.js](https://nodejs.org/en/)
 
+ * [Express.js](https://expressjs.com/)
 
+ * [uuid](https://www.npmjs.com/package/uuid)
+
+ * [Heroku](https://id.heroku.com/login)
+
+ * [Bootstrap](https://getbootstrap.com/)
+
+ * [Google Fonts](https://fonts.google.com/)
 
 ## Installation 
 
@@ -81,7 +102,7 @@ For more information about this license or any others, please visit: [https://ch
 
 ## Usage 
 
-After installing the required packages, the user must run \`node server.js` to be taken to the server. The user can either run the application in the local server or use Heroku to host the application.  
+After installing the required packages, the user must run `node server.js` to be taken to the server. The user can either run the application in the local server or use Heroku to host the application.  
 
 ## Contributing 
 
