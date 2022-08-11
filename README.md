@@ -68,9 +68,8 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 ## Visuals: 
 
-![index-screenshot](https://user-images.githubusercontent.com/103372188/184248211-c20e1524-70b1-4a8d-9362-eca226c35477.png)
-
-![notes-screenshot](https://user-images.githubusercontent.com/103372188/184248227-663b7610-7da7-44e6-913a-bee3e7295668.png)
+![index-screenshot 1](https://user-images.githubusercontent.com/103372188/184249757-c65ba469-f308-44d4-a934-8b337fa8778e.png)
+![notes-screenshot](https://user-images.githubusercontent.com/103372188/184249770-b699c799-016a-46ab-b723-1ad95b11ef40.png)
 
 ## Technologies
 
